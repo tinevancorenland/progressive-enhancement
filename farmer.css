@@ -6,7 +6,8 @@ body {
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: cover; */
-    background-image: linear-gradient(-90deg, #F2C14E, #F78154); 
+    background-image: linear-gradient(-90deg, #F2C14E, #F78154);
+    text-align: justify; 
 }
 
 p {
@@ -30,9 +31,43 @@ blockquote {
     margin: auto;
     text-align: justify;
     font-size: 160%;
+    font-style: italic;
     background-color: lightgray;
     border-left-width: 3px;
     border-left-style: dashed;
     padding: 30px;
     margin: 80px 0;
+}
+
+.villagers {
+    font-style: italic;
+    border-left: solid 4px lightseagreen;
+}
+
+.farmer {
+    font-style: italic;
+    border-left: solid 4px darkblue;
+}
+
+header > p {  
+    background-color: #F2C14E;
+    font-weight: bold;
+}
+
+.good {
+    text-transform: capitalize;
+    color: green;
+}
+
+.bad {
+    text-transform: capitalize;
+    color: red;
+}
+
+tr:nth-child(even) {
+    background: grey;
+}
+
+tr:nth-child(odd) {
+    background: white;
 }
