@@ -71,3 +71,29 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
     background: white;
 }
+
+img {
+    margin: 50px;
+    width: 50%;
+    height: 50%;
+}
+
+.float {
+    float: left;
+  }
+
+.left {
+    clear: left;
+}
+
+#notification {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    color: white;
+    background-color: black;
+    font-size: 8px;
+    width: 50px;
+    border: 1px solid white;
+
+}
